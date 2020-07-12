@@ -20,7 +20,7 @@ class CovidTest:
 
         # Initialise l'application change le titre et la positionne
         self.root = Tk()
-        self.root.title("ChoixEcole")
+        self.root.title("Covid")
 
        
 
