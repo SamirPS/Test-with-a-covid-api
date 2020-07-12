@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Dec 30 19:59:28 2018
+
 @author: samir
 """
 from tkinter import (
