@@ -3,8 +3,8 @@ import requests
 Country=input("Give a country name ")
 
 r=requests.get("https://corona.lmao.ninja/v2/countries?yesterday=false&sort=")
-
-while Country not in [i["country"] for i in r.json()]:
+ville=[i["country"] for i in r.json()]
+while Country not in ville:
     print("Here the Country you need to choose : ",ville)
     Country=input("Give a country name ")
 
