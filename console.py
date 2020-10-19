@@ -1,6 +1,6 @@
 import requests
 
-Country=input("Give a country name s")
+Country=input("Give a country name")
 
 r=requests.get("https://corona.lmao.ninja/v2/countries?yesterday=false&sort=")
 ville=[i["country"] for i in r.json()]
