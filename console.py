@@ -10,7 +10,7 @@ while Country not in ville:
 
 for i in r.json():
     if i["country"]==Country:
-        print('Here the number of case in+'str(i["country"])+str(i["cases"])+" case "+str(i["deaths"])+"death et "+str(i["recovered"])+"recovered")
+        print('Here the number of case in'+str(i["country"])+str(i["cases"])+" case "+str(i["deaths"])+"death et "+str(i["recovered"])+"recovered")
         print("Today we have :"+str(i["todayCases"])+" case "+str(i["todayDeaths"])+" deaths et "+str(i["todayRecovered"])+" recovered  ")
         break
         
